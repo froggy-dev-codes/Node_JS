@@ -1,0 +1,15 @@
+{
+  "name": "04_paquetes_externos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Froggy_Dev",
+  "license": "ISC",
+  "description": "intalar paquetes externos o de terceros en nuestro proyecto",
+  "devDependencies": {
+    "express": "^5.1.0"
+  }
+}
