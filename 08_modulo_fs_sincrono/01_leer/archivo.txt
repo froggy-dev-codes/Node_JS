@@ -1,0 +1,2 @@
+esto es unarchivo de txt y esto 
+lo voy  aleer con Node js
