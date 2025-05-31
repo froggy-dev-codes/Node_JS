@@ -5,6 +5,7 @@ const express = require('express');
 // inicializamos nuestra app con express
 const app = express();
 
+
 // importamos nuestra BD (simulada)
 const { infoCursos } = require("./cursos.js");
 
@@ -12,6 +13,15 @@ const { infoCursos } = require("./cursos.js");
 // routing
 app.get('/', (req,res)=> {
     res.end("mi primer servidor con Node.js y express")
+})
+
+app.get('/api/cursos', (req, res)=> {
+    res.send(infoCursos);
+})
+
+app.get('/api/cursos/programacion', (req, res) => {
+
+    res.send(infoCursos.programacion);
 })
 
 
